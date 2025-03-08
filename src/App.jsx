@@ -1,7 +1,7 @@
-import Navbar from './commponets/navbar';
-import Footer from './commponets/Footer';
-
-import HomePages from './commponets/pages/homepages';
+import Navbar from "./commponets/Navbar";
+import HomePages from "./commponets/pages/HomePages";
+import Contact from "./commponets/Contact";
+import Footer from "./commponets/Footer";
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
 
       {/* Content */}
       <HomePages />
+
+      <Contact />
 
       {/* Footer*/}
       <Footer />
